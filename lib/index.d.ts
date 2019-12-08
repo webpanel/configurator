@@ -1,1 +1,1 @@
-export { configuratorItemDefinition } from "./ConfiguratorItemDefinition";
+export { getConfiguratorItemDefinition } from "./ConfiguratorItemDefinition";
