@@ -1,0 +1,1 @@
+export { configuratorItemDefinition } from "./ConfiguratorItemDefinition";
