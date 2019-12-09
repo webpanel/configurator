@@ -1,3 +1,3 @@
-import { DataSource } from "webpanel-data";
 import { Entity } from "webpanel-admin";
-export declare const getConfiguratorItemDefinition: (dataSource: DataSource) => Entity<any>;
+import { IEntityConfig } from "webpanel-admin/lib/model/Entity";
+export declare const getConfiguratorItemDefinition: (config: Partial<IEntityConfig<any>>) => Entity<any>;
